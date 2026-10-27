@@ -5,6 +5,8 @@ repos:
       - id: check-added-large-files
       - id: check-yaml
       - id: end-of-file-fixer
+        # Real feed sample kept byte for byte (non-UTF-8, no final newline).
+        exclude: ^tests/fixtures/d11_cc_cp1252.json$
       - id: trailing-whitespace
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.16.10
