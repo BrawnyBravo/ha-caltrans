@@ -1,0 +1,87 @@
+{
+ "data": [
+  {
+   "rwis": {
+    "index": "27",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:50:05",
+     "recordEpoch": "1793080205"
+    },
+    "location": {
+     "district": "10",
+     "locationName": "I-205 : MacArthur Drive",
+     "nearbyPlace": "Tracy",
+     "longitude": "-121.425514",
+     "latitude": "37.763253",
+     "elevation": "22",
+     "direction": "South",
+     "county": "San Joaquin",
+     "route": "I-205",
+     "routeSuffix": "",
+     "postmilePrefix": "R",
+     "postmile": "7.54",
+     "alignment": "",
+     "milepost": "8.47"
+    },
+    "inService": "true",
+    "rwisData": {
+     "stationData": {
+      "essAtmosphericPressure": "10177"
+     },
+     "windData": {
+      "essAvgWindDirection": "262",
+      "essAvgWindSpeed": "31",
+      "essSpotWindDirection": "262",
+      "essSpotWindSpeed": "25",
+      "essMaxWindGustSpeed": "134",
+      "essMaxWindGustDir": "276"
+     },
+     "temperatureData": {
+      "essNumTemperatureSensors": "2",
+      "essTemperatureSensorTable": [
+       {
+        "essTemperatureSensorEntry": {
+         "essTemperatureSensorIndex": "1",
+         "essAirTemperature": "145"
+        }
+        "essTemperatureSensorEntry": {
+         "essTemperatureSensorIndex": "2",
+         "essAirTemperature": ""
+        }
+       }
+      ],
+      "essWetbulbTemp": "145",
+      "essDewpointTemp": "94",
+      "essMaxTemp": "238",
+      "essMinTemp": "144"
+     },
+     "humidityPrecipData": {
+      "essRelativeHumidity": "71",
+      "essPrecipYesNo": "2",
+      "essPrecipRate": "0",
+      "essPrecipSituation": "3",
+      "essPrecipitationStartTime": "0",
+      "essPrecipitationEndTime": "0",
+      "essPrecipitationOneHour": "0",
+      "essPrecipitationThreeHours": "0",
+      "essPrecipitationSixHours": "0",
+      "essPrecipitationTwelveHours": "0",
+      "essPrecipitation24Hours": "0"
+     },
+     "radiationObjects": {},
+     "visibilityData": {
+      "essVisibility": "20000",
+      "essVisibilitySituation": "2"
+     },
+     "pavementSensorData": {
+      "numEssPavementSensors": "0",
+      "essPavementSensorTable": [],
+      "numEssSubSurfaceSensors": "0",
+      "essSubSurfaceSensorTable": []
+     }
+    }
+   }
+  }
+ ]
+}

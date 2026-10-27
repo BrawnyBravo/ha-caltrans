@@ -1,0 +1,166 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Caltrans road conditions",
+        "description": "Unofficial; not affiliated with or endorsed by Caltrans. Data comes from Caltrans' free public feeds. Pick the Caltrans district your roads are in, and whether to follow chosen routes or everything near your home.",
+        "data": {
+          "district": "District",
+          "mode": "What to follow"
+        },
+        "data_description": {
+          "district": "Caltrans splits California into 12 districts; pick the one your roads are in.",
+          "mode": "Follow chosen routes, or everything within a distance of your home."
+        }
+      },
+      "routes": {
+        "title": "Routes in district {district}",
+        "description": "{count} routes are listed in the live feeds right now. Each route you pick becomes a device with its own sensors.",
+        "data": {
+          "routes": "Routes",
+          "data_types": "Data to show"
+        },
+        "data_description": {
+          "routes": "Each route becomes a device. Names are as Caltrans writes them (I-80, US-50, SR-89).",
+          "data_types": "Kinds of data to show. Traffic cameras add one camera per Caltrans camera on the route, which can be over a hundred."
+        }
+      },
+      "near": {
+        "title": "Roads near home (district {district})",
+        "description": "Uses the home location set in Home Assistant. Everything in district {district} within this distance is shown on one device.",
+        "data": {
+          "radius": "Distance from home",
+          "data_types": "Data to show"
+        },
+        "data_description": {
+          "radius": "Everything in the district within this distance of the home location set in Home Assistant is shown on one device.",
+          "data_types": "Kinds of data to show. Traffic cameras add one camera per Caltrans camera on the route, which can be over a hundred."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the Caltrans feeds. Check the internet connection and try again.",
+      "no_routes": "Pick at least one route.",
+      "no_data_types": "Pick at least one kind of data."
+    },
+    "abort": {
+      "already_configured": "This district is already set up this way. Use Configure on it to change routes or data."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Caltrans road conditions",
+        "data": {
+          "routes": "Routes",
+          "radius": "Distance from home",
+          "data_types": "Data to show"
+        },
+        "description": "Change what this district shows. Devices of routes you remove and entities of data you turn off are deleted.",
+        "data_description": {
+          "routes": "Each route becomes a device. Names are as Caltrans writes them (I-80, US-50, SR-89).",
+          "data_types": "Kinds of data to show. Traffic cameras add one camera per Caltrans camera on the route, which can be over a hundred.",
+          "radius": "Everything in the district within this distance of the home location set in Home Assistant is shown on one device."
+        }
+      }
+    },
+    "error": {
+      "no_routes": "Pick at least one route.",
+      "no_data_types": "Pick at least one kind of data."
+    }
+  },
+  "selector": {
+    "mode": {
+      "options": {
+        "routes": "Chosen routes",
+        "near": "Everything near home"
+      }
+    },
+    "data_type": {
+      "options": {
+        "cc": "Chain controls",
+        "rwis": "Road weather stations",
+        "cms": "Message signs",
+        "lcs": "Lane closures",
+        "cctv": "Traffic cameras (many; off by default)"
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "chains_required": {
+        "name": "Chains required"
+      }
+    },
+    "camera": {
+      "camera": {
+        "name": "{camera}"
+      }
+    },
+    "sensor": {
+      "chain_control": {
+        "name": "Chain control",
+        "state": {
+          "none": "None",
+          "trucks_only": "Trucks and trailers only",
+          "r1": "R-1",
+          "r2": "R-2",
+          "r3": "R-3",
+          "traffic_control": "Traffic held or escorted",
+          "closed": "Closed"
+        }
+      },
+      "lane_closures": {
+        "name": "Lane closures"
+      },
+      "message_signs": {
+        "name": "Message signs"
+      },
+      "message_sign": {
+        "name": "Sign {sign}"
+      },
+      "surface_temperature": {
+        "name": "{station} pavement temperature"
+      },
+      "surface_status": {
+        "name": "{station} pavement",
+        "state": {
+          "other": "Other",
+          "dry": "Dry",
+          "trace_moisture": "Trace moisture",
+          "wet": "Wet",
+          "chemically_wet": "Chemically wet",
+          "ice_warning": "Ice warning",
+          "ice_watch": "Ice watch",
+          "snow_warning": "Snow warning",
+          "snow_watch": "Snow watch",
+          "absorption": "Absorption",
+          "dew": "Dew",
+          "frost": "Frost",
+          "absorption_at_dewpoint": "Absorption at dew point"
+        }
+      },
+      "air_temperature": {
+        "name": "{station} air temperature"
+      },
+      "visibility": {
+        "name": "{station} visibility"
+      },
+      "wind_speed": {
+        "name": "{station} wind speed"
+      },
+      "wind_gust": {
+        "name": "{station} wind gust"
+      },
+      "wind_direction": {
+        "name": "{station} wind direction"
+      }
+    }
+  },
+  "issues": {
+    "feed_unavailable": {
+      "title": "Caltrans {feed} feed for district {district} is not loading",
+      "description": "The Caltrans feed at {url} has not loaded for over 6 hours, so its sensors are unavailable. Last error: {error}. This is usually an outage on Caltrans' side and clears by itself when the feed comes back. If it lasts for days, the feed may have moved; check {docs_url} and report it on the integration's issue tracker."
+    }
+  }
+}

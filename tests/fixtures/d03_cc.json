@@ -1,0 +1,344 @@
+{
+ "data": [
+  {
+   "cc": {
+    "index": "3-NEV-80-13.5-E-192",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Truckee",
+     "nearbyPlace": "Truckee",
+     "longitude": "-120.220450",
+     "latitude": "39.323710",
+     "elevation": "5905",
+     "direction": "East",
+     "county": "Nevada",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "13.50",
+     "alignment": "",
+     "milepost": "184.06"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-10-26",
+      "statusTime": "22:10:00"
+     },
+     "status": "R-2",
+     "statusDescription": "Chains or traction devices are required on all vehicles except four wheel / all wheel drive vehicles with snow treaded tires on all wheels."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-NEV-80-13.5-E-192a",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Truckee",
+     "nearbyPlace": "Truckee",
+     "longitude": "-120.220450",
+     "latitude": "39.323710",
+     "elevation": "5905",
+     "direction": "East",
+     "county": "Nevada",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "13.50",
+     "alignment": "",
+     "milepost": "184.06"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-10-26",
+      "statusTime": "21:40:00"
+     },
+     "status": "R-1",
+     "statusDescription": "Chains, traction devices or snow tires are required on the drive axle of all vehicles except four wheel or all wheel drive vehicles."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-NEV-80-13.5-W-200",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Truckee",
+     "nearbyPlace": "Truckee",
+     "longitude": "-120.220450",
+     "latitude": "39.323710",
+     "elevation": "5905",
+     "direction": "West",
+     "county": "Nevada",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "13.50",
+     "alignment": "",
+     "milepost": "184.06"
+    },
+    "inService": "false",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-10-26",
+      "statusTime": "22:10:00"
+     },
+     "status": "R-3",
+     "statusDescription": "Chains or traction devices are required on all vehicles, no exceptions."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-NEV-80-13.5-W-200a",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Truckee",
+     "nearbyPlace": "Truckee",
+     "longitude": "-120.220450",
+     "latitude": "39.323710",
+     "elevation": "5905",
+     "direction": "West",
+     "county": "Nevada",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "13.50",
+     "alignment": "",
+     "milepost": "184.06"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-04-21",
+      "statusTime": "10:22:35"
+     },
+     "status": "R-0",
+     "statusDescription": "No chain controls are in effect at this time."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-NEV-80-18.6-W-199",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Overland Trail - OTL Truck Screens",
+     "nearbyPlace": "Truckee",
+     "longitude": "-120.141280",
+     "latitude": "39.358500",
+     "elevation": "5820",
+     "direction": "West",
+     "county": "Nevada",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "18.60",
+     "alignment": "",
+     "milepost": "189.16"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-04-12",
+      "statusTime": "16:46:05"
+     },
+     "status": "R-0",
+     "statusDescription": "No chain controls are in effect at this time."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-ED-50-20.18-E-159",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Placerville East City Limits(Pointview)",
+     "nearbyPlace": "Placerville",
+     "longitude": "-120.761780",
+     "latitude": "38.730630",
+     "elevation": "2240",
+     "direction": "East",
+     "county": "El Dorado",
+     "route": "US-50",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "20.18",
+     "alignment": "",
+     "milepost": "48.72"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-10-26",
+      "statusTime": "20:05:00"
+     },
+     "status": "RC",
+     "statusDescription": "Closed to traffic."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-ED-50-20.18-E-159a",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Placerville East City Limits(Pointview)",
+     "nearbyPlace": "Placerville",
+     "longitude": "-120.761780",
+     "latitude": "38.730630",
+     "elevation": "2240",
+     "direction": "East",
+     "county": "El Dorado",
+     "route": "US-50",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "20.18",
+     "alignment": "",
+     "milepost": "48.72"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-10-26",
+      "statusTime": "22:10:00"
+     },
+     "status": "R-1 MODIFIED",
+     "statusDescription": "Trucks and vehicles pulling trailers require chains, traction devices or snow tires on the drive axle of all vehicles except four wheel or all wheel drive vehicles."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-ED-50-23.16-W-160",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Camino Heights",
+     "nearbyPlace": "Placerville",
+     "longitude": "-120.712250",
+     "latitude": "38.736940",
+     "elevation": "2926",
+     "direction": "West",
+     "county": "El Dorado",
+     "route": "US-50",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "23.16",
+     "alignment": "",
+     "milepost": "51.70"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-02-27",
+      "statusTime": "10:05:08"
+     },
+     "status": "R-0",
+     "statusDescription": "No chain controls are in effect at this time."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-ALP-89-23.6-N-237",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Luther Pass",
+     "nearbyPlace": "Markleeville",
+     "longitude": "-119.939680",
+     "latitude": "38.787944",
+     "elevation": "7732",
+     "direction": "North",
+     "county": "Alpine",
+     "route": "SR-89",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "23.60",
+     "alignment": "",
+     "milepost": "31.03"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-05-05",
+      "statusTime": "05:58:27"
+     },
+     "status": "R-0",
+     "statusDescription": "No chain controls are in effect at this time."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "3-ED-89-5.8-S-236",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Christmas Valley",
+     "nearbyPlace": "South Lake Tahoe",
+     "longitude": "-120.014996",
+     "latitude": "38.812668",
+     "elevation": "6505",
+     "direction": "South",
+     "county": "El Dorado",
+     "route": "SR-89",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "5.80",
+     "alignment": "",
+     "milepost": "37.21"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-05-05",
+      "statusTime": "05:58:27"
+     },
+     "status": "R-0",
+     "statusDescription": "No chain controls are in effect at this time."
+    }
+   }
+  }
+ ]
+}

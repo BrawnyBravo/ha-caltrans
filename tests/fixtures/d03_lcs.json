@@ -1,0 +1,764 @@
+{
+ "data": [
+  {
+   "lcs": {
+    "index": "C80EB-0047-2026-10-26-21:01:00",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:58:02",
+     "recordEpoch": "1793080682"
+    },
+    "location": {
+     "travelFlowDirection": "East",
+     "begin": {
+      "beginDistrict": "3",
+      "beginLocationName": "Route 80",
+      "beginFreeFormDescription": "",
+      "beginNearbyPlace": "Davis",
+      "beginLongitude": "-121.735471",
+      "beginLatitude": "38.540059",
+      "beginElevation": "55",
+      "beginDirection": "East",
+      "beginCounty": "Yolo",
+      "beginRoute": "I-80",
+      "beginRouteSuffix": "",
+      "beginPostmilePrefix": "",
+      "beginPostmile": "0.233",
+      "beginAlignment": "",
+      "beginMilepost": "72.439"
+     },
+     "end": {
+      "endDistrict": "3",
+      "endLocationName": "Richards Blvd",
+      "endFreeFormDescription": "",
+      "endNearbyPlace": "Davis",
+      "endLongitude": "-121.735471",
+      "endLatitude": "38.540059",
+      "endElevation": "55",
+      "endDirection": "",
+      "endCounty": "Yolo",
+      "endRoute": "I-80",
+      "endRouteSuffix": "",
+      "endPostmilePrefix": "",
+      "endPostmile": "0.233",
+      "endAlignment": "",
+      "endMilepost": "77.987"
+     }
+    },
+    "closure": {
+     "closureID": "C80EB",
+     "logNumber": "47",
+     "closureTimestamp": {
+      "closureRequestDate": "2026-10-20",
+      "closureRequestTime": "09:39:13",
+      "closureRequestEpoch": "1792514353",
+      "closureStartDate": "2026-10-26",
+      "closureStartTime": "21:01:00",
+      "closureStartEpoch": "1793073660",
+      "closureEndDate": "2026-10-27",
+      "closureEndTime": "04:59:00",
+      "closureEndEpoch": "1793102340",
+      "isClosureEndIndefinite": "false"
+     },
+     "facility": "Off Ramp",
+     "typeOfClosure": "Full",
+     "typeOfWork": "Pavement Work",
+     "durationOfClosure": "Standard",
+     "estimatedDelay": "Not Reported",
+     "lanesClosed": "All",
+     "totalExistingLanes": "1",
+     "isCHINReportable": "false",
+     "code1097": {
+      "isCode1097": "true",
+      "code1097Timestamp": {
+       "code1097Date": "2026-10-26",
+       "code1097Time": "20:57:34",
+       "code1097Epoch": "1793073454"
+      }
+     },
+     "code1098": {
+      "isCode1098": "false",
+      "code1098Timestamp": {
+       "code1098Date": "",
+       "code1098Time": "",
+       "code1098Epoch": ""
+      }
+     },
+     "code1022": {
+      "isCode1022": "false",
+      "code1022Timestamp": {
+       "code1022Date": "",
+       "code1022Time": "",
+       "code1022Epoch": ""
+      }
+     }
+    }
+   }
+  },
+  {
+   "lcs": {
+    "index": "C80EB-0107-2026-10-26-21:01:00",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:58:02",
+     "recordEpoch": "1793080682"
+    },
+    "location": {
+     "travelFlowDirection": "East",
+     "begin": {
+      "beginDistrict": "3",
+      "beginLocationName": "Route 113",
+      "beginFreeFormDescription": "",
+      "beginNearbyPlace": "Davis",
+      "beginLongitude": "-121.768919",
+      "beginLatitude": "38.520842",
+      "beginElevation": "55",
+      "beginDirection": "",
+      "beginCounty": "Solano",
+      "beginRoute": "I-80",
+      "beginRouteSuffix": "",
+      "beginPostmilePrefix": "",
+      "beginPostmile": "42.670",
+      "beginAlignment": "",
+      "beginMilepost": "70.156"
+     },
+     "end": {
+      "endDistrict": "3",
+      "endLocationName": "Solano County Line",
+      "endFreeFormDescription": "",
+      "endNearbyPlace": "Davis",
+      "endLongitude": "-121.738409",
+      "endLatitude": "38.537592",
+      "endElevation": "52",
+      "endDirection": "",
+      "endCounty": "Yolo",
+      "endRoute": "I-80",
+      "endRouteSuffix": "",
+      "endPostmilePrefix": "",
+      "endPostmile": "0.000",
+      "endAlignment": "",
+      "endMilepost": "81.385"
+     }
+    },
+    "closure": {
+     "closureID": "C80EB",
+     "logNumber": "107",
+     "closureTimestamp": {
+      "closureRequestDate": "2026-10-20",
+      "closureRequestTime": "11:42:29",
+      "closureRequestEpoch": "1792521749",
+      "closureStartDate": "2026-10-26",
+      "closureStartTime": "21:01:00",
+      "closureStartEpoch": "1793073660",
+      "closureEndDate": "2026-10-27",
+      "closureEndTime": "04:59:00",
+      "closureEndEpoch": "1793102340",
+      "isClosureEndIndefinite": "false"
+     },
+     "facility": "Mainline",
+     "typeOfClosure": "Lane",
+     "typeOfWork": "Pavement Work",
+     "durationOfClosure": "Standard",
+     "estimatedDelay": "Not Reported",
+     "lanesClosed": "3, 4",
+     "totalExistingLanes": "4",
+     "isCHINReportable": "true",
+     "code1097": {
+      "isCode1097": "true",
+      "code1097Timestamp": {
+       "code1097Date": "2026-10-26",
+       "code1097Time": "21:24:03",
+       "code1097Epoch": "1793075043"
+      }
+     },
+     "code1098": {
+      "isCode1098": "false",
+      "code1098Timestamp": {
+       "code1098Date": "",
+       "code1098Time": "",
+       "code1098Epoch": ""
+      }
+     },
+     "code1022": {
+      "isCode1022": "false",
+      "code1022Timestamp": {
+       "code1022Date": "",
+       "code1022Time": "",
+       "code1022Epoch": ""
+      }
+     }
+    }
+   }
+  },
+  {
+   "lcs": {
+    "index": "C80EB-0115-2026-10-26-21:01:00",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:58:02",
+     "recordEpoch": "1793080682"
+    },
+    "location": {
+     "travelFlowDirection": "East",
+     "begin": {
+      "beginDistrict": "3",
+      "beginLocationName": "Mace Blvd",
+      "beginFreeFormDescription": "",
+      "beginNearbyPlace": "Davis",
+      "beginLongitude": "-121.694435",
+      "beginLatitude": "38.552452",
+      "beginElevation": "39",
+      "beginDirection": "",
+      "beginCounty": "Yolo",
+      "beginRoute": "I-80",
+      "beginRouteSuffix": "",
+      "beginPostmilePrefix": "",
+      "beginPostmile": "2.675",
+      "beginAlignment": "",
+      "beginMilepost": "74.881"
+     },
+     "end": {
+      "endDistrict": "3",
+      "endLocationName": "E Chiles Rd (Webster)",
+      "endFreeFormDescription": "",
+      "endNearbyPlace": "Davis",
+      "endLongitude": "-121.638850",
+      "endLatitude": "38.563310",
+      "endElevation": "29",
+      "endDirection": "",
+      "endCounty": "Yolo",
+      "endRoute": "I-80",
+      "endRouteSuffix": "",
+      "endPostmilePrefix": "",
+      "endPostmile": "5.781",
+      "endAlignment": "",
+      "endMilepost": "81.385"
+     }
+    },
+    "closure": {
+     "closureID": "C80EB",
+     "logNumber": "115",
+     "closureTimestamp": {
+      "closureRequestDate": "2026-10-20",
+      "closureRequestTime": "11:44:05",
+      "closureRequestEpoch": "1792521845",
+      "closureStartDate": "2026-10-26",
+      "closureStartTime": "21:01:00",
+      "closureStartEpoch": "1793073660",
+      "closureEndDate": "2026-10-27",
+      "closureEndTime": "04:59:00",
+      "closureEndEpoch": "1793102340",
+      "isClosureEndIndefinite": "false"
+     },
+     "facility": "Mainline",
+     "typeOfClosure": "Lane",
+     "typeOfWork": "Pavement Work",
+     "durationOfClosure": "Standard",
+     "estimatedDelay": "Not Reported",
+     "lanesClosed": "1, 2",
+     "totalExistingLanes": "3",
+     "isCHINReportable": "true",
+     "code1097": {
+      "isCode1097": "true",
+      "code1097Timestamp": {
+       "code1097Date": "2026-10-26",
+       "code1097Time": "22:04:41",
+       "code1097Epoch": "1793077481"
+      }
+     },
+     "code1098": {
+      "isCode1098": "false",
+      "code1098Timestamp": {
+       "code1098Date": "",
+       "code1098Time": "",
+       "code1098Epoch": ""
+      }
+     },
+     "code1022": {
+      "isCode1022": "false",
+      "code1022Timestamp": {
+       "code1022Date": "",
+       "code1022Time": "",
+       "code1022Epoch": ""
+      }
+     }
+    }
+   }
+  },
+  {
+   "lcs": {
+    "index": "C80EB-0119-2026-10-26-21:01:00",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:58:02",
+     "recordEpoch": "1793080682"
+    },
+    "location": {
+     "travelFlowDirection": "East",
+     "begin": {
+      "beginDistrict": "3",
+      "beginLocationName": "E Chiles Rd (Webster)",
+      "beginFreeFormDescription": "",
+      "beginNearbyPlace": "Davis",
+      "beginLongitude": "-121.638850",
+      "beginLatitude": "38.563310",
+      "beginElevation": "29",
+      "beginDirection": "",
+      "beginCounty": "Yolo",
+      "beginRoute": "I-80",
+      "beginRouteSuffix": "",
+      "beginPostmilePrefix": "",
+      "beginPostmile": "5.781",
+      "beginAlignment": "",
+      "beginMilepost": "77.987"
+     },
+     "end": {
+      "endDistrict": "3",
+      "endLocationName": "Enterprise Blvd / W Capitol Ave",
+      "endFreeFormDescription": "",
+      "endNearbyPlace": "West Sacramento",
+      "endLongitude": "-121.577773",
+      "endLatitude": "38.574139",
+      "endElevation": "6",
+      "endDirection": "",
+      "endCounty": "Yolo",
+      "endRoute": "I-80",
+      "endRouteSuffix": "",
+      "endPostmilePrefix": "",
+      "endPostmile": "9.179",
+      "endAlignment": "",
+      "endMilepost": "81.385"
+     }
+    },
+    "closure": {
+     "closureID": "C80EB",
+     "logNumber": "119",
+     "closureTimestamp": {
+      "closureRequestDate": "2026-10-20",
+      "closureRequestTime": "11:45:09",
+      "closureRequestEpoch": "1792521909",
+      "closureStartDate": "2026-10-26",
+      "closureStartTime": "21:01:00",
+      "closureStartEpoch": "1793073660",
+      "closureEndDate": "2026-10-27",
+      "closureEndTime": "04:59:00",
+      "closureEndEpoch": "1793102340",
+      "isClosureEndIndefinite": "false"
+     },
+     "facility": "Mainline",
+     "typeOfClosure": "Alternating Lanes",
+     "typeOfWork": "Pavement Work",
+     "durationOfClosure": "Standard",
+     "estimatedDelay": "Not Reported",
+     "lanesClosed": "1, 2, 3",
+     "totalExistingLanes": "3",
+     "isCHINReportable": "true",
+     "code1097": {
+      "isCode1097": "true",
+      "code1097Timestamp": {
+       "code1097Date": "2026-10-26",
+       "code1097Time": "22:04:41",
+       "code1097Epoch": "1793077481"
+      }
+     },
+     "code1098": {
+      "isCode1098": "false",
+      "code1098Timestamp": {
+       "code1098Date": "",
+       "code1098Time": "",
+       "code1098Epoch": ""
+      }
+     },
+     "code1022": {
+      "isCode1022": "false",
+      "code1022Timestamp": {
+       "code1022Date": "",
+       "code1022Time": "",
+       "code1022Epoch": ""
+      }
+     }
+    }
+   }
+  },
+  {
+   "lcs": {
+    "index": "C80OA-0001-2026-10-26-06:01:00",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:58:02",
+     "recordEpoch": "1793080682"
+    },
+    "location": {
+     "travelFlowDirection": "East",
+     "begin": {
+      "beginDistrict": "3",
+      "beginLocationName": "Dutch Flat (Ridge Rd / Monte Vista)",
+      "beginFreeFormDescription": "",
+      "beginNearbyPlace": "Alta",
+      "beginLongitude": "-120.832168",
+      "beginLatitude": "39.188132",
+      "beginElevation": "3343",
+      "beginDirection": "",
+      "beginCounty": "Placer",
+      "beginRoute": "I-80",
+      "beginRouteSuffix": "",
+      "beginPostmilePrefix": "",
+      "beginPostmile": "43.167",
+      "beginAlignment": "",
+      "beginMilepost": "144.671"
+     },
+     "end": {
+      "endDistrict": "3",
+      "endLocationName": "Drum Forebay Rd",
+      "endFreeFormDescription": "",
+      "endNearbyPlace": "Alta",
+      "endLongitude": "-120.752742",
+      "endLatitude": "39.237228",
+      "endElevation": "4307",
+      "endDirection": "",
+      "endCounty": "Placer",
+      "endRoute": "I-80",
+      "endRouteSuffix": "",
+      "endPostmilePrefix": "",
+      "endPostmile": "49.000",
+      "endAlignment": "",
+      "endMilepost": "150.504"
+     }
+    },
+    "closure": {
+     "closureID": "C80OA",
+     "logNumber": "1",
+     "closureTimestamp": {
+      "closureRequestDate": "2026-10-21",
+      "closureRequestTime": "13:48:31",
+      "closureRequestEpoch": "1792615711",
+      "closureStartDate": "2026-10-26",
+      "closureStartTime": "06:01:00",
+      "closureStartEpoch": "1793019660",
+      "closureEndDate": "2026-10-26",
+      "closureEndTime": "17:59:00",
+      "closureEndEpoch": "1793062740",
+      "isClosureEndIndefinite": "false"
+     },
+     "facility": "Mainline",
+     "typeOfClosure": "Alternating Lanes",
+     "typeOfWork": "Miscellaneous Work",
+     "durationOfClosure": "Standard",
+     "estimatedDelay": "Not Reported",
+     "lanesClosed": "LShoulder, 1, 2, RShoulder",
+     "totalExistingLanes": "2",
+     "isCHINReportable": "true",
+     "code1097": {
+      "isCode1097": "false",
+      "code1097Timestamp": {
+       "code1097Date": "",
+       "code1097Time": "",
+       "code1097Epoch": ""
+      }
+     },
+     "code1098": {
+      "isCode1098": "false",
+      "code1098Timestamp": {
+       "code1098Date": "",
+       "code1098Time": "",
+       "code1098Epoch": ""
+      }
+     },
+     "code1022": {
+      "isCode1022": "true",
+      "code1022Timestamp": {
+       "code1022Date": "2026-10-26",
+       "code1022Time": "07:36:33",
+       "code1022Epoch": "1793025393"
+      }
+     }
+    }
+   }
+  },
+  {
+   "lcs": {
+    "index": "C80OA-0006-2026-10-26-06:01:00",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:58:02",
+     "recordEpoch": "1793080682"
+    },
+    "location": {
+     "travelFlowDirection": "West",
+     "begin": {
+      "beginDistrict": "3",
+      "beginLocationName": "Drum Forebay Rd",
+      "beginFreeFormDescription": "",
+      "beginNearbyPlace": "Alta",
+      "beginLongitude": "-120.752878",
+      "beginLatitude": "39.237279",
+      "beginElevation": "4307",
+      "beginDirection": "",
+      "beginCounty": "Placer",
+      "beginRoute": "I-80",
+      "beginRouteSuffix": "",
+      "beginPostmilePrefix": "",
+      "beginPostmile": "49.000",
+      "beginAlignment": "",
+      "beginMilepost": "150.504"
+     },
+     "end": {
+      "endDistrict": "3",
+      "endLocationName": "Dutch Flat (Ridge Rd / Monte Vista)",
+      "endFreeFormDescription": "",
+      "endNearbyPlace": "Dutch Flat",
+      "endLongitude": "-120.832114",
+      "endLatitude": "39.188255",
+      "endElevation": "3343",
+      "endDirection": "",
+      "endCounty": "Placer",
+      "endRoute": "I-80",
+      "endRouteSuffix": "",
+      "endPostmilePrefix": "",
+      "endPostmile": "43.167",
+      "endAlignment": "",
+      "endMilepost": "150.504"
+     }
+    },
+    "closure": {
+     "closureID": "C80OA",
+     "logNumber": "6",
+     "closureTimestamp": {
+      "closureRequestDate": "2026-10-21",
+      "closureRequestTime": "13:52:33",
+      "closureRequestEpoch": "1792615953",
+      "closureStartDate": "2026-10-26",
+      "closureStartTime": "06:01:00",
+      "closureStartEpoch": "1793019660",
+      "closureEndDate": "2026-10-26",
+      "closureEndTime": "17:59:00",
+      "closureEndEpoch": "1793062740",
+      "isClosureEndIndefinite": "false"
+     },
+     "facility": "Mainline",
+     "typeOfClosure": "Alternating Lanes",
+     "typeOfWork": "Miscellaneous Work",
+     "durationOfClosure": "Standard",
+     "estimatedDelay": "Not Reported",
+     "lanesClosed": "1, LShoulder, 2, RShoulder",
+     "totalExistingLanes": "2",
+     "isCHINReportable": "true",
+     "code1097": {
+      "isCode1097": "true",
+      "code1097Timestamp": {
+       "code1097Date": "2026-10-26",
+       "code1097Time": "07:36:33",
+       "code1097Epoch": "1793025393"
+      }
+     },
+     "code1098": {
+      "isCode1098": "true",
+      "code1098Timestamp": {
+       "code1098Date": "2026-10-26",
+       "code1098Time": "17:11:58",
+       "code1098Epoch": "1793059918"
+      }
+     },
+     "code1022": {
+      "isCode1022": "false",
+      "code1022Timestamp": {
+       "code1022Date": "",
+       "code1022Time": "",
+       "code1022Epoch": ""
+      }
+     }
+    }
+   }
+  },
+  {
+   "lcs": {
+    "index": "C80BB-0001-2026-10-27-07:01:00",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:58:02",
+     "recordEpoch": "1793080682"
+    },
+    "location": {
+     "travelFlowDirection": "West",
+     "begin": {
+      "beginDistrict": "3",
+      "beginLocationName": "East Cisco Undercrossing",
+      "beginFreeFormDescription": "",
+      "beginNearbyPlace": "Soda Springs",
+      "beginLongitude": "-120.532950",
+      "beginLatitude": "39.305578",
+      "beginElevation": "5662",
+      "beginDirection": "",
+      "beginCounty": "Placer",
+      "beginRoute": "I-80",
+      "beginRouteSuffix": "",
+      "beginPostmilePrefix": "R",
+      "beginPostmile": "64.212",
+      "beginAlignment": "L",
+      "beginMilepost": "165.716"
+     },
+     "end": {
+      "endDistrict": "3",
+      "endLocationName": "Cisco Grove (Cisco Rd)",
+      "endFreeFormDescription": "",
+      "endNearbyPlace": "Soda Springs",
+      "endLongitude": "-120.543932",
+      "endLatitude": "39.310047",
+      "endElevation": "5659",
+      "endDirection": "",
+      "endCounty": "Placer",
+      "endRoute": "I-80",
+      "endRouteSuffix": "",
+      "endPostmilePrefix": "R",
+      "endPostmile": "63.517",
+      "endAlignment": "",
+      "endMilepost": "165.021"
+     }
+    },
+    "closure": {
+     "closureID": "C80BB",
+     "logNumber": "1",
+     "closureTimestamp": {
+      "closureRequestDate": "2026-10-19",
+      "closureRequestTime": "16:44:38",
+      "closureRequestEpoch": "1792453478",
+      "closureStartDate": "2026-10-27",
+      "closureStartTime": "07:01:00",
+      "closureStartEpoch": "1793109660",
+      "closureEndDate": "2026-10-27",
+      "closureEndTime": "19:01:00",
+      "closureEndEpoch": "1793152860",
+      "isClosureEndIndefinite": "false"
+     },
+     "facility": "Mainline",
+     "typeOfClosure": "Lane",
+     "typeOfWork": "Drainage Work",
+     "durationOfClosure": "Standard",
+     "estimatedDelay": "5",
+     "lanesClosed": "2, RShoulder",
+     "totalExistingLanes": "2",
+     "isCHINReportable": "true",
+     "code1097": {
+      "isCode1097": "false",
+      "code1097Timestamp": {
+       "code1097Date": "",
+       "code1097Time": "",
+       "code1097Epoch": ""
+      }
+     },
+     "code1098": {
+      "isCode1098": "false",
+      "code1098Timestamp": {
+       "code1098Date": "",
+       "code1098Time": "",
+       "code1098Epoch": ""
+      }
+     },
+     "code1022": {
+      "isCode1022": "false",
+      "code1022Timestamp": {
+       "code1022Date": "",
+       "code1022Time": "",
+       "code1022Epoch": ""
+      }
+     }
+    }
+   }
+  },
+  {
+   "lcs": {
+    "index": "C50BA-0003-2026-10-26-19:01:00",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "22:58:02",
+     "recordEpoch": "1793080682"
+    },
+    "location": {
+     "travelFlowDirection": "East / West",
+     "begin": {
+      "beginDistrict": "3",
+      "beginLocationName": "Alder Creek Rd",
+      "beginFreeFormDescription": "",
+      "beginNearbyPlace": "Pollock Pines",
+      "beginLongitude": "-120.378344",
+      "beginLatitude": "38.766894",
+      "beginElevation": "3549",
+      "beginDirection": "",
+      "beginCounty": "El Dorado",
+      "beginRoute": "US-50",
+      "beginRouteSuffix": "",
+      "beginPostmilePrefix": "",
+      "beginPostmile": "43.830",
+      "beginAlignment": "",
+      "beginMilepost": "72.215"
+     },
+     "end": {
+      "endDistrict": "3",
+      "endLocationName": "Kyburz Maintenance Station",
+      "endFreeFormDescription": "",
+      "endNearbyPlace": "Kyburz",
+      "endLongitude": "-120.300391",
+      "endLatitude": "38.774186",
+      "endElevation": "4130",
+      "endDirection": "",
+      "endCounty": "El Dorado",
+      "endRoute": "US-50",
+      "endRouteSuffix": "",
+      "endPostmilePrefix": "",
+      "endPostmile": "48.665",
+      "endAlignment": "",
+      "endMilepost": "76.992"
+     }
+    },
+    "closure": {
+     "closureID": "C50BA",
+     "logNumber": "3",
+     "closureTimestamp": {
+      "closureRequestDate": "2026-10-20",
+      "closureRequestTime": "16:33:23",
+      "closureRequestEpoch": "1792539203",
+      "closureStartDate": "2026-10-26",
+      "closureStartTime": "19:01:00",
+      "closureStartEpoch": "1793066460",
+      "closureEndDate": "2026-10-27",
+      "closureEndTime": "05:59:00",
+      "closureEndEpoch": "1793105940",
+      "isClosureEndIndefinite": "false"
+     },
+     "facility": "Conventional Hwy",
+     "typeOfClosure": "One-Way Traffic",
+     "typeOfWork": "Drainage Work",
+     "durationOfClosure": "Standard",
+     "estimatedDelay": "10",
+     "lanesClosed": "1",
+     "totalExistingLanes": "2",
+     "isCHINReportable": "true",
+     "code1097": {
+      "isCode1097": "true",
+      "code1097Timestamp": {
+       "code1097Date": "2026-10-26",
+       "code1097Time": "19:01:03",
+       "code1097Epoch": "1793066463"
+      }
+     },
+     "code1098": {
+      "isCode1098": "false",
+      "code1098Timestamp": {
+       "code1098Date": "",
+       "code1098Time": "",
+       "code1098Epoch": ""
+      }
+     },
+     "code1022": {
+      "isCode1022": "false",
+      "code1022Timestamp": {
+       "code1022Date": "",
+       "code1022Time": "",
+       "code1022Epoch": ""
+      }
+     }
+    }
+   }
+  }
+ ]
+}

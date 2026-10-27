@@ -1,0 +1,544 @@
+{
+ "data": [
+  {
+   "rwis": {
+    "index": "3",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02",
+     "recordEpoch": "1793080802"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 80 at Donner Summit",
+     "nearbyPlace": "Soda Springs",
+     "longitude": "-120.34782",
+     "latitude": "39.33906",
+     "elevation": "7221",
+     "direction": "",
+     "county": "Nevada",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "R",
+     "postmile": "5.17",
+     "alignment": "R",
+     "milepost": "176.31"
+    },
+    "inService": "true",
+    "rwisData": {
+     "stationData": {
+      "essAtmosphericPressure": "65535"
+     },
+     "windData": {
+      "essAvgWindDirection": "40",
+      "essAvgWindSpeed": "40",
+      "essSpotWindDirection": "107",
+      "essSpotWindSpeed": "34",
+      "essMaxWindGustSpeed": "67",
+      "essMaxWindGustDir": "109"
+     },
+     "temperatureData": {
+      "essNumTemperatureSensors": "1",
+      "essTemperatureSensorTable": [
+       {
+        "essTemperatureSensorEntry": {
+         "essTemperatureSensorIndex": "1",
+         "essAirTemperature": "18"
+        }
+       }
+      ],
+      "essWetbulbTemp": "1001",
+      "essDewpointTemp": "-40",
+      "essMaxTemp": "109",
+      "essMinTemp": "-18"
+     },
+     "humidityPrecipData": {
+      "essRelativeHumidity": "65",
+      "essPrecipYesNo": "2",
+      "essPrecipRate": "0",
+      "essPrecipSituation": "3",
+      "essPrecipitationStartTime": "0",
+      "essPrecipitationEndTime": "0",
+      "essPrecipitationOneHour": "0",
+      "essPrecipitationThreeHours": "0",
+      "essPrecipitationSixHours": "0",
+      "essPrecipitationTwelveHours": "0",
+      "essPrecipitation24Hours": "0"
+     },
+     "radiationObjects": {},
+     "visibilityData": {
+      "essVisibility": "61678",
+      "essVisibilitySituation": "2"
+     },
+     "pavementSensorData": {
+      "numEssPavementSensors": "1",
+      "essPavementSensorTable": [
+       {
+        "essPavementSensorEntry": {
+         "essPavementSensorIndex": "1",
+         "essPavementSensorLocation": "3;Surf Nevada I-80 R5.17;;-120.34809;39.33917;7214;;Nevada;I-80;;R;5.17;R;",
+         "essPavementType": "3",
+         "essPavementSensorType": "2",
+         "essSurfaceStatus": "9",
+         "essSurfaceTemperature": "-21",
+         "essSurfaceSalinity": "0",
+         "essSurfaceFreezePoint": "0",
+         "essSurfaceBlackIceSignal": "4",
+         "essPavementSensorError": "2",
+         "essSurfaceIceOrWaterDepth": "0",
+         "essSurfaceConductivityV2": "65535"
+        }
+       }
+      ],
+      "numEssSubSurfaceSensors": "1",
+      "essSubSurfaceSensorTable": [
+       {
+        "essSubSurfaceSensorEntry": {
+         "essSubSurfaceSensorIndex": "1",
+         "essSubSurfaceSensorLocation": "3;Sub Nevada I-80 R5.17;;-120.34818;39.33915;7214;;Nevada;I-80;;R;5.17;R;",
+         "essSubSurfaceType": "4",
+         "essSubSurfaceDepth": "10",
+         "essSubSurfaceTemperature": "0",
+         "essSubSurfaceMoisture": "101",
+         "essSubSurfaceSensorError": "4"
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "rwis": {
+    "index": "1",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02",
+     "recordEpoch": "1793080802"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 80 at Blue Canyon",
+     "nearbyPlace": "Emigrant Gap",
+     "longitude": "-120.70311",
+     "latitude": "39.2834",
+     "elevation": "5314",
+     "direction": "",
+     "county": "Placer",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "53.39",
+     "alignment": "",
+     "milepost": "154.89"
+    },
+    "inService": "true",
+    "rwisData": {
+     "stationData": {
+      "essAtmosphericPressure": "65535"
+     },
+     "windData": {
+      "essAvgWindDirection": "5",
+      "essAvgWindSpeed": "5",
+      "essSpotWindDirection": "104",
+      "essSpotWindSpeed": "5",
+      "essMaxWindGustSpeed": "11",
+      "essMaxWindGustDir": "100"
+     },
+     "temperatureData": {
+      "essNumTemperatureSensors": "1",
+      "essTemperatureSensorTable": [
+       {
+        "essTemperatureSensorEntry": {
+         "essTemperatureSensorIndex": "1",
+         "essAirTemperature": "45"
+        }
+       }
+      ],
+      "essWetbulbTemp": "1001",
+      "essDewpointTemp": "-4",
+      "essMaxTemp": "156",
+      "essMinTemp": "48"
+     },
+     "humidityPrecipData": {
+      "essRelativeHumidity": "70",
+      "essPrecipYesNo": "2",
+      "essPrecipRate": "0",
+      "essPrecipSituation": "3",
+      "essPrecipitationStartTime": "1792757880",
+      "essPrecipitationEndTime": "1792758060",
+      "essPrecipitationOneHour": "0",
+      "essPrecipitationThreeHours": "0",
+      "essPrecipitationSixHours": "0",
+      "essPrecipitationTwelveHours": "0",
+      "essPrecipitation24Hours": "0"
+     },
+     "radiationObjects": {},
+     "visibilityData": {
+      "essVisibility": "75000",
+      "essVisibilitySituation": "2"
+     },
+     "pavementSensorData": {
+      "numEssPavementSensors": "1",
+      "essPavementSensorTable": [
+       {
+        "essPavementSensorEntry": {
+         "essPavementSensorIndex": "1",
+         "essPavementSensorLocation": "3;Surf Placer I-80 53.39;;-120.70343;39.28381;5318;;Placer;I-80;;;53.39;;",
+         "essPavementType": "3",
+         "essPavementSensorType": "2",
+         "essSurfaceStatus": "3",
+         "essSurfaceTemperature": "0",
+         "essSurfaceSalinity": "0",
+         "essSurfaceFreezePoint": "0",
+         "essSurfaceBlackIceSignal": "4",
+         "essPavementSensorError": "4",
+         "essSurfaceIceOrWaterDepth": "0",
+         "essSurfaceConductivityV2": "65535"
+        }
+       }
+      ],
+      "numEssSubSurfaceSensors": "1",
+      "essSubSurfaceSensorTable": [
+       {
+        "essSubSurfaceSensorEntry": {
+         "essSubSurfaceSensorIndex": "1",
+         "essSubSurfaceSensorLocation": "3;Sub Placer I-80 53.39;;-120.70343;39.28381;5318;;Placer;I-80;;;53.39;;",
+         "essSubSurfaceType": "4",
+         "essSubSurfaceDepth": "10",
+         "essSubSurfaceTemperature": "0",
+         "essSubSurfaceMoisture": "101",
+         "essSubSurfaceSensorError": "4"
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "rwis": {
+    "index": "5",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:07",
+     "recordEpoch": "1793080807"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 50 at Echo Summit",
+     "nearbyPlace": "South Lake Tahoe",
+     "longitude": "-120.02994",
+     "latitude": "38.81322",
+     "elevation": "7401",
+     "direction": "",
+     "county": "El Dorado",
+     "route": "US-50",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "66.81",
+     "alignment": "",
+     "milepost": "94.97"
+    },
+    "inService": "true",
+    "rwisData": {
+     "stationData": {
+      "essAtmosphericPressure": "65535"
+     },
+     "windData": {
+      "essAvgWindDirection": "0",
+      "essAvgWindSpeed": "0",
+      "essSpotWindDirection": "83",
+      "essSpotWindSpeed": "0",
+      "essMaxWindGustSpeed": "31",
+      "essMaxWindGustDir": "83"
+     },
+     "temperatureData": {
+      "essNumTemperatureSensors": "1",
+      "essTemperatureSensorTable": [
+       {
+        "essTemperatureSensorEntry": {
+         "essTemperatureSensorIndex": "1",
+         "essAirTemperature": "45"
+        }
+       }
+      ],
+      "essWetbulbTemp": "1001",
+      "essDewpointTemp": "-69",
+      "essMaxTemp": "115",
+      "essMinTemp": "-8"
+     },
+     "humidityPrecipData": {
+      "essRelativeHumidity": "43",
+      "essPrecipYesNo": "2",
+      "essPrecipRate": "0",
+      "essPrecipSituation": "3",
+      "essPrecipitationStartTime": "0",
+      "essPrecipitationEndTime": "0",
+      "essPrecipitationOneHour": "0",
+      "essPrecipitationThreeHours": "0",
+      "essPrecipitationSixHours": "0",
+      "essPrecipitationTwelveHours": "0",
+      "essPrecipitation24Hours": "0"
+     },
+     "radiationObjects": {},
+     "visibilityData": {
+      "essVisibility": "68275",
+      "essVisibilitySituation": "2"
+     },
+     "pavementSensorData": {
+      "numEssPavementSensors": "1",
+      "essPavementSensorTable": [
+       {
+        "essPavementSensorEntry": {
+         "essPavementSensorIndex": "1",
+         "essPavementSensorLocation": "3;Surf El Dorado US-50 66.81;;-120.02982;38.81309;7401;;El Dorado;US-50;;;66.81;;",
+         "essPavementType": "3",
+         "essPavementSensorType": "2",
+         "essSurfaceStatus": "3",
+         "essSurfaceTemperature": "0",
+         "essSurfaceSalinity": "0",
+         "essSurfaceFreezePoint": "0",
+         "essSurfaceBlackIceSignal": "4",
+         "essPavementSensorError": "4",
+         "essSurfaceIceOrWaterDepth": "0",
+         "essSurfaceConductivityV2": "65535"
+        }
+       }
+      ],
+      "numEssSubSurfaceSensors": "1",
+      "essSubSurfaceSensorTable": [
+       {
+        "essSubSurfaceSensorEntry": {
+         "essSubSurfaceSensorIndex": "1",
+         "essSubSurfaceSensorLocation": "3;Sub El Dorado US-50 66.81;;-120.02984;38.81308;7401;;El Dorado;US-50;;;66.81;;",
+         "essSubSurfaceType": "4",
+         "essSubSurfaceDepth": "10",
+         "essSubSurfaceTemperature": "0",
+         "essSubSurfaceMoisture": "101",
+         "essSubSurfaceSensorError": "4"
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "rwis": {
+    "index": "11",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02",
+     "recordEpoch": "1793080802"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 80 at Bryte Bend",
+     "nearbyPlace": "Sacramento",
+     "longitude": "-121.54475",
+     "latitude": "38.603",
+     "elevation": "19",
+     "direction": "",
+     "county": "Sacramento",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "M",
+     "postmile": "0.37",
+     "alignment": "",
+     "milepost": "84.29"
+    },
+    "inService": "true",
+    "rwisData": {
+     "stationData": {
+      "essAtmosphericPressure": "65535"
+     },
+     "windData": {
+      "essAvgWindDirection": "30",
+      "essAvgWindSpeed": "30",
+      "essSpotWindDirection": "154",
+      "essSpotWindSpeed": "29",
+      "essMaxWindGustSpeed": "57",
+      "essMaxWindGustDir": "161"
+     },
+     "temperatureData": {
+      "essNumTemperatureSensors": "1",
+      "essTemperatureSensorTable": [
+       {
+        "essTemperatureSensorEntry": {
+         "essTemperatureSensorIndex": "1",
+         "essAirTemperature": "126"
+        }
+       }
+      ],
+      "essWetbulbTemp": "1001",
+      "essDewpointTemp": "99",
+      "essMaxTemp": "231",
+      "essMinTemp": "82"
+     },
+     "humidityPrecipData": {
+      "essRelativeHumidity": "84",
+      "essPrecipYesNo": "2",
+      "essPrecipRate": "0",
+      "essPrecipSituation": "3",
+      "essPrecipitationStartTime": "0",
+      "essPrecipitationEndTime": "0",
+      "essPrecipitationOneHour": "0",
+      "essPrecipitationThreeHours": "0",
+      "essPrecipitationSixHours": "0",
+      "essPrecipitationTwelveHours": "0",
+      "essPrecipitation24Hours": "0"
+     },
+     "radiationObjects": {},
+     "visibilityData": {
+      "essVisibility": "21935",
+      "essVisibilitySituation": "2"
+     },
+     "pavementSensorData": {
+      "numEssPavementSensors": "1",
+      "essPavementSensorTable": [
+       {
+        "essPavementSensorEntry": {
+         "essPavementSensorIndex": "1",
+         "essPavementSensorLocation": "3;Surf Sacramento I-80 M0.37;;-121.54487;38.60305;19;;Sacramento;I-80;;M;0.37;;",
+         "essPavementType": "3",
+         "essPavementSensorType": "2",
+         "essSurfaceStatus": "1",
+         "essSurfaceTemperature": "1001",
+         "essSurfaceSalinity": "0",
+         "essSurfaceFreezePoint": "0",
+         "essSurfaceBlackIceSignal": "4",
+         "essPavementSensorError": "4",
+         "essSurfaceIceOrWaterDepth": "0",
+         "essSurfaceConductivityV2": "65535"
+        }
+       }
+      ],
+      "numEssSubSurfaceSensors": "1",
+      "essSubSurfaceSensorTable": [
+       {
+        "essSubSurfaceSensorEntry": {
+         "essSubSurfaceSensorIndex": "1",
+         "essSubSurfaceSensorLocation": "3;Sub Sacramento I-80 M0.37;;-121.54487;38.60305;19;;Sacramento;I-80;;M;0.37;;",
+         "essSubSurfaceType": "4",
+         "essSubSurfaceDepth": "10",
+         "essSubSurfaceTemperature": "0",
+         "essSubSurfaceMoisture": "101",
+         "essSubSurfaceSensorError": "4"
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "rwis": {
+    "index": "10",
+    "recordTimestamp": {
+     "recordDate": "2026-10-25",
+     "recordTime": "08:00:02",
+     "recordEpoch": "1792940402"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 80 at Floriston",
+     "nearbyPlace": "Floriston",
+     "longitude": "-120.02388",
+     "latitude": "39.39557",
+     "elevation": "5291",
+     "direction": "",
+     "county": "Nevada",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "27.43",
+     "alignment": "",
+     "milepost": "198.01"
+    },
+    "inService": "true",
+    "rwisData": {
+     "stationData": {
+      "essAtmosphericPressure": "65535"
+     },
+     "windData": {
+      "essAvgWindDirection": "19",
+      "essAvgWindSpeed": "19",
+      "essSpotWindDirection": "187",
+      "essSpotWindSpeed": "16",
+      "essMaxWindGustSpeed": "35",
+      "essMaxWindGustDir": "176"
+     },
+     "temperatureData": {
+      "essNumTemperatureSensors": "1",
+      "essTemperatureSensorTable": [
+       {
+        "essTemperatureSensorEntry": {
+         "essTemperatureSensorIndex": "1",
+         "essAirTemperature": "33"
+        }
+       }
+      ],
+      "essWetbulbTemp": "1001",
+      "essDewpointTemp": "-37",
+      "essMaxTemp": "186",
+      "essMinTemp": "-19"
+     },
+     "humidityPrecipData": {
+      "essRelativeHumidity": "60",
+      "essPrecipYesNo": "2",
+      "essPrecipRate": "0",
+      "essPrecipSituation": "3",
+      "essPrecipitationStartTime": "1792737660",
+      "essPrecipitationEndTime": "1792737810",
+      "essPrecipitationOneHour": "0",
+      "essPrecipitationThreeHours": "0",
+      "essPrecipitationSixHours": "0",
+      "essPrecipitationTwelveHours": "0",
+      "essPrecipitation24Hours": "0"
+     },
+     "radiationObjects": {},
+     "visibilityData": {
+      "essVisibility": "26920",
+      "essVisibilitySituation": "2"
+     },
+     "pavementSensorData": {
+      "numEssPavementSensors": "1",
+      "essPavementSensorTable": [
+       {
+        "essPavementSensorEntry": {
+         "essPavementSensorIndex": "1",
+         "essPavementSensorLocation": "3;Surf Nevada I-80 27.38;;-120.02471;39.39531;5288;;Nevada;I-80;;;27.38;;",
+         "essPavementType": "3",
+         "essPavementSensorType": "2",
+         "essSurfaceStatus": "3",
+         "essSurfaceTemperature": "0",
+         "essSurfaceSalinity": "0",
+         "essSurfaceFreezePoint": "0",
+         "essSurfaceBlackIceSignal": "4",
+         "essPavementSensorError": "4",
+         "essSurfaceIceOrWaterDepth": "0",
+         "essSurfaceConductivityV2": "65535"
+        }
+       }
+      ],
+      "numEssSubSurfaceSensors": "1",
+      "essSubSurfaceSensorTable": [
+       {
+        "essSubSurfaceSensorEntry": {
+         "essSubSurfaceSensorIndex": "1",
+         "essSubSurfaceSensorLocation": "3;Sub Nevada I-80 27.38;;-120.02469;39.39531;5288;;Nevada;I-80;;;27.38;;",
+         "essSubSurfaceType": "4",
+         "essSubSurfaceDepth": "10",
+         "essSubSurfaceTemperature": "0",
+         "essSubSurfaceMoisture": "101",
+         "essSubSurfaceSensorError": "4"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ ]
+}

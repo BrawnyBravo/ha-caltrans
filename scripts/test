@@ -1,0 +1,6 @@
+#!/bin/bash
+# Run the test suite with coverage. Needs the packages in requirements_test.txt
+# (Home Assistant does not run on native Windows: use Linux, macOS or WSL).
+set -e
+cd "$(dirname "$0")/.."
+pytest --durations=10 --cov-report term-missing --cov=custom_components.caltrans_roads --cov-fail-under=90 tests

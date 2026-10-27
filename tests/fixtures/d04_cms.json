@@ -1,0 +1,96 @@
+{
+ "data": [
+  {
+   "cms": {
+    "index": "1",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:01:35"
+    },
+    "location": {
+     "district": "4",
+     "locationName": "CM001-MRN 101 N/B S/OF SIR FRANCIS DRAKE",
+     "nearbyPlace": "Corte Madera",
+     "longitude": "-122.515881",
+     "latitude": "37.932114",
+     "elevation": "0",
+     "direction": "North",
+     "county": "Marin",
+     "route": "US-101",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "7.79",
+     "alignment": "",
+     "milepost": "449.07"
+    },
+    "inService": "true",
+    "message": {
+     "messageTimestamp": {
+      "messageDate": "2026-10-26",
+      "messageTime": "22:58:37"
+     },
+     "display": "Blank",
+     "displayTime": "Not Reported",
+     "phase1": {
+      "phase1Font": "Not Reported",
+      "phase1Line1": "",
+      "phase1Line2": "",
+      "phase1Line3": ""
+     },
+     "phase2": {
+      "phase2Font": "Not Reported",
+      "phase2Line1": "",
+      "phase2Line2": "",
+      "phase2Line3": ""
+     }
+    }
+   }
+  },
+  {
+   "cms": {
+    "index": "2",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:01:35"
+    },
+    "location": {
+     "district": "4",
+     "locationName": "CM002-MRN 101 S/B S/OF SAN PEDRO RD UC",
+     "nearbyPlace": "San Rafael",
+     "longitude": "-122.529832",
+     "latitude": "37.990837",
+     "elevation": "157",
+     "direction": "South",
+     "county": "Marin",
+     "route": "US-101",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "12.43",
+     "alignment": "",
+     "milepost": "453.7"
+    },
+    "inService": "true",
+    "message": {
+     "messageTimestamp": {
+      "messageDate": "2026-10-26",
+      "messageTime": "22:00:38"
+     },
+     "display": "Blank",
+     "displayTime": "Not Reported",
+     "phase1": {
+      "phase1Font": "Not Reported",
+      "phase1Line1": "",
+      "phase1Line2": "",
+      "phase1Line3": ""
+     },
+     "phase2": {
+      "phase2Font": "Not Reported",
+      "phase2Line1": "",
+      "phase2Line2": "",
+      "phase2Line3": ""
+     }
+    }
+   }
+  }
+ ]
+}

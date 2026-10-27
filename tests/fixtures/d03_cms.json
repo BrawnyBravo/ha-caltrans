@@ -1,0 +1,280 @@
+{
+ "data": [
+  {
+   "cms": {
+    "index": "1229",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:01:34"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "001 - Placerville",
+     "nearbyPlace": "Placerville",
+     "longitude": "-120.767877",
+     "latitude": "38.730662",
+     "elevation": "2171",
+     "direction": "East",
+     "county": "El Dorado",
+     "route": "US-50",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "19.85",
+     "alignment": "",
+     "milepost": "48.37"
+    },
+    "inService": "True",
+    "message": {
+     "messageTimestamp": {
+      "messageDate": "2026-10-25",
+      "messageTime": "18:59:11"
+     },
+     "display": "Blank",
+     "displayTime": "Not Reported",
+     "phase1": {
+      "phase1Font": "Not Reported",
+      "phase1Line1": "",
+      "phase1Line2": "",
+      "phase1Line3": ""
+     },
+     "phase2": {
+      "phase2Font": "Not Reported",
+      "phase2Line1": "",
+      "phase2Line2": "",
+      "phase2Line3": ""
+     }
+    }
+   }
+  },
+  {
+   "cms": {
+    "index": "1240",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:01:34"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "003 - Gilardi Rd",
+     "nearbyPlace": "Newcastle",
+     "longitude": "-121.146840",
+     "latitude": "38.851713",
+     "elevation": "626",
+     "direction": "East",
+     "county": "Placer",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "12.04",
+     "alignment": "",
+     "milepost": "113.54"
+    },
+    "inService": "True",
+    "message": {
+     "messageTimestamp": {
+      "messageDate": "2026-10-25",
+      "messageTime": "14:13:31"
+     },
+     "display": "1 Page (Normal)",
+     "displayTime": "3",
+     "phase1": {
+      "phase1Font": "Not Reported",
+      "phase1Line1": "BE",
+      "phase1Line2": "WORK ZONE",
+      "phase1Line3": "ALERT"
+     },
+     "phase2": {
+      "phase2Font": "Not Reported",
+      "phase2Line1": "",
+      "phase2Line2": "",
+      "phase2Line3": ""
+     }
+    }
+   }
+  },
+  {
+   "cms": {
+    "index": "1238",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:01:34"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "004 - Truckee",
+     "nearbyPlace": "Truckee",
+     "longitude": "-120.212591",
+     "latitude": "39.323323",
+     "elevation": "5892",
+     "direction": "West",
+     "county": "Nevada",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "13.92",
+     "alignment": "",
+     "milepost": "184.5"
+    },
+    "inService": "True",
+    "message": {
+     "messageTimestamp": {
+      "messageDate": "2026-10-24",
+      "messageTime": "19:28:29"
+     },
+     "display": "Blank",
+     "displayTime": "Not Reported",
+     "phase1": {
+      "phase1Font": "Not Reported",
+      "phase1Line1": "",
+      "phase1Line2": "",
+      "phase1Line3": ""
+     },
+     "phase2": {
+      "phase2Font": "Not Reported",
+      "phase2Line1": "",
+      "phase2Line2": "",
+      "phase2Line3": ""
+     }
+    }
+   }
+  },
+  {
+   "cms": {
+    "index": "1272",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:01:34"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "009 - Olive Dr",
+     "nearbyPlace": "Davis",
+     "longitude": "-121.726085",
+     "latitude": "38.545878",
+     "elevation": "32",
+     "direction": "West",
+     "county": "Yolo",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "0.9",
+     "alignment": "",
+     "milepost": "73.08"
+    },
+    "inService": "True",
+    "message": {
+     "messageTimestamp": {
+      "messageDate": "2026-10-24",
+      "messageTime": "22:25:58"
+     },
+     "display": "2 Pages (Extended)",
+     "displayTime": "3",
+     "phase1": {
+      "phase1Font": "Not Reported",
+      "phase1Line1": "N-5 FWY TO CLOSE",
+      "phase1Line2": "2 MILES NORTH OF",
+      "phase1Line3": "SAC AIRPORT "
+     },
+     "phase2": {
+      "phase2Font": "Not Reported",
+      "phase2Line1": "NIGHTLY",
+      "phase2Line2": "NOV 1 - NOV 6",
+      "phase2Line3": ""
+     }
+    }
+   }
+  },
+  {
+   "cms": {
+    "index": "1246",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:01:34"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "012 - Blue Canyon",
+     "nearbyPlace": "Emigrant Gap",
+     "longitude": "-120.706042",
+     "latitude": "39.282676",
+     "elevation": "5305",
+     "direction": "East",
+     "county": "Placer",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "53.22",
+     "alignment": "L",
+     "milepost": "154.68"
+    },
+    "inService": "False",
+    "message": {
+     "messageTimestamp": {
+      "messageDate": "2026-06-03",
+      "messageTime": "10:33:00"
+     },
+     "display": "Blank",
+     "displayTime": "5",
+     "phase1": {
+      "phase1Font": "Not Reported",
+      "phase1Line1": "",
+      "phase1Line2": "",
+      "phase1Line3": ""
+     },
+     "phase2": {
+      "phase2Font": "Not Reported",
+      "phase2Line1": "",
+      "phase2Line2": "",
+      "phase2Line3": ""
+     }
+    }
+   }
+  },
+  {
+   "cms": {
+    "index": "1259",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:01:34"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "024 - Scott Rd",
+     "nearbyPlace": "Folsom",
+     "longitude": "-121.127339",
+     "latitude": "38.642925",
+     "elevation": "354",
+     "direction": "West",
+     "county": "Sacramento",
+     "route": "US-50",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "20.82",
+     "alignment": "",
+     "milepost": "26.48"
+    },
+    "inService": "True",
+    "message": {
+     "messageTimestamp": {
+      "messageDate": "2026-10-26",
+      "messageTime": "23:01:10"
+     },
+     "display": "1 Page (Normal)",
+     "displayTime": "3",
+     "phase1": {
+      "phase1Font": "Not Reported",
+      "phase1Line1": "MINUTES TO:",
+      "phase1Line2": "WATT 15",
+      "phase1Line3": "DOWNTOWN 22"
+     },
+     "phase2": {
+      "phase2Font": "Not Reported",
+      "phase2Line1": "",
+      "phase2Line2": "",
+      "phase2Line3": ""
+     }
+    }
+   }
+  }
+ ]
+}

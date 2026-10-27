@@ -1,0 +1,72 @@
+{
+ "data": [
+  {
+   "cc": {
+    "index": "11-SD-8-R34-E-10",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "11",
+     "locationName": "JWO E. Willows RD",
+     "nearbyPlace": "Nueva Hindú Sección Encinos",
+     "longitude": "-116.411367",
+     "latitude": "32.501834",
+     "elevation": "2969",
+     "direction": "East",
+     "county": "San Diego",
+     "route": "I-8",
+     "routeSuffix": "",
+     "postmilePrefix": "R",
+     "postmile": "34.00",
+     "alignment": "",
+     "milepost": "36.36"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2023-02-25",
+      "statusTime": "17:27:35"
+     },
+     "status": "R-0",
+     "statusDescription": "No chain controls are in effect at this time."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "11-IMP-8-R9.6L-W-11",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "11",
+     "locationName": "WO Ocotillo",
+     "nearbyPlace": "Eguia",
+     "longitude": "-116.013732",
+     "latitude": "32.433428",
+     "elevation": "4350",
+     "direction": "West",
+     "county": "Imperial",
+     "route": "I-8",
+     "routeSuffix": "",
+     "postmilePrefix": "R",
+     "postmile": "9.60",
+     "alignment": "L",
+     "milepost": "87.83"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2023-02-25",
+      "statusTime": "17:27:35"
+     },
+     "status": "R-0",
+     "statusDescription": "No chain controls are in effect at this time."
+    }
+   }
+  }
+ ]
+}

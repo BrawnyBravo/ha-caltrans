@@ -1,0 +1,196 @@
+{
+ "data": [
+  {
+   "cctv": {
+    "index": "51",
+    "recordTimestamp": {
+     "recordDate": "2026-08-11",
+     "recordTime": "08:26:32",
+     "recordEpoch": "1786461992"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 80 at West Capitol",
+     "nearbyPlace": "West Sacramento",
+     "longitude": "-121.581819",
+     "latitude": "38.573915",
+     "elevation": "13",
+     "direction": "West",
+     "county": "Yolo",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "8.94",
+     "alignment": "",
+     "milepost": "81.12"
+    },
+    "inService": "true",
+    "imageData": {
+     "imageDescription": "",
+     "streamingVideoURL": "https://wzmedia.dot.ca.gov/D3/80_West_Capitol_Ave_JWO_YOL80_WB.stream/playlist.m3u8",
+     "static": {
+      "currentImageUpdateFrequency": "1",
+      "currentImageURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/hwy80atwestcapitol.jpg",
+      "referenceImageUpdateFrequency": "15",
+      "referenceImage1UpdateAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-1.jpg",
+      "referenceImage2UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-2.jpg",
+      "referenceImage3UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-3.jpg",
+      "referenceImage4UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-4.jpg",
+      "referenceImage5UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-5.jpg",
+      "referenceImage6UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-6.jpg",
+      "referenceImage7UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-7.jpg",
+      "referenceImage8UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-8.jpg",
+      "referenceImage9UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-9.jpg",
+      "referenceImage10UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-10.jpg",
+      "referenceImage11UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-11.jpg",
+      "referenceImage12UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atwestcapitol/previous/hwy80atwestcapitol-12.jpg"
+     }
+    }
+   }
+  },
+  {
+   "cctv": {
+    "index": "52",
+    "recordTimestamp": {
+     "recordDate": "2023-04-17",
+     "recordTime": "09:47:57",
+     "recordEpoch": "1681750077"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 80 at Bryte Bend",
+     "nearbyPlace": "Sacramento",
+     "longitude": "-121.544722",
+     "latitude": "38.602967",
+     "elevation": "19",
+     "direction": "Median",
+     "county": "Sacramento",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "M",
+     "postmile": "0.36",
+     "alignment": "",
+     "milepost": "84.26"
+    },
+    "inService": "true",
+    "imageData": {
+     "imageDescription": "",
+     "streamingVideoURL": "https://wzmedia.dot.ca.gov/D3/80_Bryte_Bend_Bridge_SAC80_EB.stream/playlist.m3u8",
+     "static": {
+      "currentImageUpdateFrequency": "1",
+      "currentImageURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/hwy80atbrytebend.jpg",
+      "referenceImageUpdateFrequency": "15",
+      "referenceImage1UpdateAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-1.jpg",
+      "referenceImage2UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-2.jpg",
+      "referenceImage3UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-3.jpg",
+      "referenceImage4UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-4.jpg",
+      "referenceImage5UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-5.jpg",
+      "referenceImage6UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-6.jpg",
+      "referenceImage7UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-7.jpg",
+      "referenceImage8UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-8.jpg",
+      "referenceImage9UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-9.jpg",
+      "referenceImage10UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-10.jpg",
+      "referenceImage11UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-11.jpg",
+      "referenceImage12UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atbrytebend/previous/hwy80atbrytebend-12.jpg"
+     }
+    }
+   }
+  },
+  {
+   "cctv": {
+    "index": "53",
+    "recordTimestamp": {
+     "recordDate": "2026-08-12",
+     "recordTime": "17:49:58",
+     "recordEpoch": "1786582198"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 80 at Truxel",
+     "nearbyPlace": "Sacramento",
+     "longitude": "-121.50092",
+     "latitude": "38.634014",
+     "elevation": "16",
+     "direction": "West",
+     "county": "Sacramento",
+     "route": "I-80",
+     "routeSuffix": "",
+     "postmilePrefix": "M",
+     "postmile": "3.63",
+     "alignment": "",
+     "milepost": "87.53"
+    },
+    "inService": "false",
+    "imageData": {
+     "imageDescription": "",
+     "streamingVideoURL": "https://wzmedia.dot.ca.gov/D3/80_Truxel_Rd_OC_SAC80_EB.stream/playlist.m3u8",
+     "static": {
+      "currentImageUpdateFrequency": "1",
+      "currentImageURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/hwy80attruxel.jpg",
+      "referenceImageUpdateFrequency": "15",
+      "referenceImage1UpdateAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-1.jpg",
+      "referenceImage2UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-2.jpg",
+      "referenceImage3UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-3.jpg",
+      "referenceImage4UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-4.jpg",
+      "referenceImage5UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-5.jpg",
+      "referenceImage6UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-6.jpg",
+      "referenceImage7UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-7.jpg",
+      "referenceImage8UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-8.jpg",
+      "referenceImage9UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-9.jpg",
+      "referenceImage10UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-10.jpg",
+      "referenceImage11UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-11.jpg",
+      "referenceImage12UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80attruxel/previous/hwy80attruxel-12.jpg"
+     }
+    }
+   }
+  },
+  {
+   "cctv": {
+    "index": "17",
+    "recordTimestamp": {
+     "recordDate": "2026-09-15",
+     "recordTime": "19:48:15",
+     "recordEpoch": "1789526895"
+    },
+    "location": {
+     "district": "3",
+     "locationName": "Hwy 50 at Harbor_Blvd_Onr_YOL50_WB_1",
+     "nearbyPlace": "West Sacramento",
+     "longitude": "-121.548377",
+     "latitude": "38.575021",
+     "elevation": "6",
+     "direction": "West",
+     "county": "Yolo",
+     "route": "US-50",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "1.22",
+     "alignment": "",
+     "milepost": "1.22"
+    },
+    "inService": "true",
+    "imageData": {
+     "imageDescription": "",
+     "streamingVideoURL": "https://wzmedia.dot.ca.gov/D3/50_Harbor_Blvd_Onr_YOL50_WB_1.stream/playlist.m3u8",
+     "static": {
+      "currentImageUpdateFrequency": "1",
+      "currentImageURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/hwy50atharborblvdonryol50wb1.jpg",
+      "referenceImageUpdateFrequency": "15",
+      "referenceImage1UpdateAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-1.jpg",
+      "referenceImage2UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-2.jpg",
+      "referenceImage3UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-3.jpg",
+      "referenceImage4UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-4.jpg",
+      "referenceImage5UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-5.jpg",
+      "referenceImage6UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-6.jpg",
+      "referenceImage7UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-7.jpg",
+      "referenceImage8UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-8.jpg",
+      "referenceImage9UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-9.jpg",
+      "referenceImage10UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-10.jpg",
+      "referenceImage11UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-11.jpg",
+      "referenceImage12UpdatesAgoURL": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atharborblvdonryol50wb1/previous/hwy50atharborblvdonryol50wb1-12.jpg"
+     }
+    }
+   }
+  }
+ ]
+}

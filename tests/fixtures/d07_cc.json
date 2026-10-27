@@ -1,0 +1,106 @@
+{
+ "data": [
+  {
+   "cc": {
+    "index": "7-LA-2-26.7-E-",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "7",
+     "locationName": "La Canada (Gate)",
+     "nearbyPlace": "La Canada Flintridge",
+     "longitude": "-118.188585",
+     "latitude": "34.224423",
+     "elevation": "1932",
+     "direction": "East",
+     "county": "Los Angeles",
+     "route": "SR-2",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "26.70",
+     "alignment": "",
+     "milepost": "16.43"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2023-04-03",
+      "statusTime": "08:22:27"
+     },
+     "status": "R-0",
+     "statusDescription": "No chain controls are in effect at this time."
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "7-LA-2-35.3-E-",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "7",
+     "locationName": "Ladybug curve",
+     "nearbyPlace": "Not Reported",
+     "longitude": "Not Reported",
+     "latitude": "Not Reported",
+     "elevation": "Not Reported",
+     "direction": "East",
+     "county": "Los Angeles",
+     "route": "SR-2",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "35.30",
+     "alignment": "",
+     "milepost": "25.03"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-03-11",
+      "statusTime": "10:22:15"
+     },
+     "status": "-118.1307759",
+     "statusDescription": ""
+    }
+   }
+  },
+  {
+   "cc": {
+    "index": "7-LA-2-57-E-",
+    "recordTimestamp": {
+     "recordDate": "2026-10-26",
+     "recordTime": "23:00:02"
+    },
+    "location": {
+     "district": "7",
+     "locationName": "6 miles East of Newcomb's Ranch",
+     "nearbyPlace": "Not Reported",
+     "longitude": "Not Reported",
+     "latitude": "Not Reported",
+     "elevation": "Not Reported",
+     "direction": "East",
+     "county": "Los Angeles",
+     "route": "SR-2",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "57.00",
+     "alignment": "",
+     "milepost": "46.73"
+    },
+    "inService": "true",
+    "statusData": {
+     "statusTimestamp": {
+      "statusDate": "2026-03-11",
+      "statusTime": "10:22:15"
+     },
+     "status": "-117.9363729",
+     "statusDescription": ""
+    }
+   }
+  }
+ ]
+}
