@@ -6,4 +6,4 @@ pytest-homeassistant-custom-component==0.13.372
 homeassistant==2026.10.1
 # Requirement of Home Assistant's camera component, which HA installs at runtime
 # rather than as a package dependency (HA 2026.10.1 camera manifest).
-PyTurboJPEG==1.8.3
+PyTurboJPEG==2.6.1
