@@ -9,7 +9,7 @@ from pytest_homeassistant_custom_component.test_util.aiohttp import AiohttpClien
 
 from custom_components.caltrans_roads.const import DOMAIN, FEEDS
 
-from .conftest import fixture_bytes, make_entry, mock_feeds, setup_entry
+from .conftest import fixture_bytes, make_entry, mock_feeds, settle, setup_entry
 
 
 async def _start(hass: HomeAssistant, district: str = "3", mode: str = "routes"):
@@ -46,7 +46,7 @@ async def test_routes_flow(hass: HomeAssistant, d3_feeds: AiohttpClientMocker):
     assert result["title"] == "Caltrans District 3"
     assert result["data"] == {"district": 3, "mode": "routes"}
     assert result["options"] == {"routes": ["I-80", "US-50"], "data_types": ["cc", "rwis"]}
-    await hass.async_block_till_done()
+    await settle(hass)
     assert hass.states.get("binary_sensor.i_80_chains_required").state == "on"
 
 
@@ -109,7 +109,7 @@ async def test_options_routes(hass: HomeAssistant, d3_feeds: AiohttpClientMocker
         result["flow_id"], {"routes": ["SR-89"], "data_types": ["cc", "cctv"]}
     )
     assert result["type"] is FlowResultType.CREATE_ENTRY
-    await hass.async_block_till_done()
+    await settle(hass)
     assert entry.options == {"routes": ["SR-89"], "data_types": ["cc", "cctv"]}
     assert hass.states.get("sensor.sr_89_chain_control") is not None
 
@@ -127,5 +127,5 @@ async def test_options_near(hass: HomeAssistant, d3_feeds: AiohttpClientMocker):
     result = await hass.config_entries.options.async_init(entry.entry_id)
     result = await hass.config_entries.options.async_configure(result["flow_id"], {"radius": 50, "data_types": ["cc"]})
     assert result["type"] is FlowResultType.CREATE_ENTRY
-    await hass.async_block_till_done()
+    await settle(hass)
     assert entry.options == {"radius": 50, "data_types": ["cc"]}

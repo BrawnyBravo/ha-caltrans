@@ -16,7 +16,7 @@ from pytest_homeassistant_custom_component.test_util.aiohttp import AiohttpClien
 
 from custom_components.caltrans_roads.const import DOMAIN, MODE_NEAR
 
-from .conftest import HOME, fixture_bytes, make_entry, mock_feeds, restamped, setup_entry
+from .conftest import HOME, fixture_bytes, make_entry, mock_feeds, restamped, settle, setup_entry
 
 DONNER = "sensor.i_80_hwy_80_at_donner_summit"
 
@@ -103,7 +103,7 @@ async def test_message_signs(hass: HomeAssistant, d3_feeds: AiohttpClientMocker,
     ):
         entity_registry.async_update_entity(entity_id, disabled_by=None)
     await hass.config_entries.async_reload(entry.entry_id)
-    await hass.async_block_till_done()
+    await settle(hass)
     assert hass.states.get("sensor.i_80_sign_003_gilardi_rd").state == "BE / WORK ZONE / ALERT"
     assert hass.states.get("sensor.i_80_sign_003_gilardi_rd").attributes["direction"] == "East"
     assert hass.states.get("sensor.i_80_sign_004_truckee").state == ""
@@ -193,7 +193,7 @@ async def test_camera_image_errors(hass: HomeAssistant, d3_feeds: AiohttpClientM
     # A camera that vanished from the feed returns no image.
     coordinator = entry.runtime_data.coordinators["cctv"]
     coordinator.async_set_updated_data([])
-    await hass.async_block_till_done()
+    await settle(hass)
     assert hass.states.get("camera.i_80_hwy_80_at_west_capitol").state == STATE_UNAVAILABLE
 
 

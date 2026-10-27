@@ -133,9 +133,21 @@ def make_entry(
     )
 
 
+async def settle(hass: HomeAssistant) -> None:
+    """
+    Wait for everything Home Assistant started, background tasks included.
+
+    Scheduled coordinator refreshes and the first lane closure download run as background
+    tasks, and the file is parsed in a worker thread. A plain async_block_till_done() does
+    not wait for those, so on a busy machine (CI runs tests in parallel) the assertions
+    could run before the new data landed.
+    """
+    await hass.async_block_till_done(wait_background_tasks=True)
+
+
 async def setup_entry(hass: HomeAssistant, entry: MockConfigEntry) -> MockConfigEntry:
     """Add and set up an entry."""
     entry.add_to_hass(hass)
     await hass.config_entries.async_setup(entry.entry_id)
-    await hass.async_block_till_done()
+    await settle(hass)
     return entry
