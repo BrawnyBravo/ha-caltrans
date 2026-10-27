@@ -15,7 +15,7 @@ from pytest_homeassistant_custom_component.test_util.aiohttp import AiohttpClien
 from custom_components.caltrans_roads.api import feed_url
 from custom_components.caltrans_roads.const import DOMAIN, FEED_CAMERAS, FEEDS
 
-from .conftest import d3_responses, fixture_bytes, make_entry, mock_feeds, restamped, setup_entry
+from .conftest import d3_responses, fixture_bytes, make_entry, mock_feeds, restamped, settle, setup_entry
 
 CHAIN = "sensor.i_80_chain_control"
 
@@ -23,7 +23,7 @@ CHAIN = "sensor.i_80_chain_control"
 async def _tick(hass: HomeAssistant, frozen, delta: timedelta) -> None:
     frozen.tick(delta)
     async_fire_time_changed(hass)
-    await hass.async_block_till_done()
+    await settle(hass)
 
 
 async def test_setup_and_unload(hass: HomeAssistant, d3_feeds: AiohttpClientMocker):
@@ -34,7 +34,7 @@ async def test_setup_and_unload(hass: HomeAssistant, d3_feeds: AiohttpClientMock
     assert all(feed_url(3, FEED_CAMERAS) != str(call[1]) for call in d3_feeds.mock_calls)
 
     assert await hass.config_entries.async_unload(entry.entry_id)
-    await hass.async_block_till_done()
+    await settle(hass)
     assert entry.state is ConfigEntryState.NOT_LOADED
 
 
@@ -173,7 +173,7 @@ async def test_options_change_reloads(hass: HomeAssistant, d3_feeds: AiohttpClie
     entry = await setup_entry(hass, make_entry())
     assert hass.states.get("sensor.sr_89_chain_control") is None
     hass.config_entries.async_update_entry(entry, options={**entry.options, "routes": ["SR-89"]})
-    await hass.async_block_till_done()
+    await settle(hass)
     assert hass.states.get("sensor.sr_89_chain_control").state == "none"
 
 
@@ -192,7 +192,7 @@ async def test_dropped_route_and_data_type_are_cleaned_up(hass: HomeAssistant, d
     assert entities.async_get("sensor.i_80_lane_closures") is not None
 
     hass.config_entries.async_update_entry(entry, options={"routes": ["I-80"], "data_types": ["cc", "rwis", "cms"]})
-    await hass.async_block_till_done()
+    await settle(hass)
     assert devices.async_get(us50.id) is None
     assert entities.async_get("sensor.us_50_chain_control") is None
     assert entities.async_get("sensor.i_80_lane_closures") is None  # lane closures turned off
@@ -211,7 +211,7 @@ async def test_dropped_route_device_removal_uses_current_api(
     devices = dr.async_get(hass)
     us50 = next(d for d in dr.async_entries_for_config_entry(devices, entry.entry_id) if d.name == "US-50")
     hass.config_entries.async_update_entry(entry, options={**entry.options, "routes": ["I-80"]})
-    await hass.async_block_till_done()
+    await settle(hass)
     assert devices.async_get(us50.id) is None
     assert "remove_config_entry_id" not in caplog.text
 
@@ -223,7 +223,7 @@ async def test_repair_clock_survives_setup_retries(hass: HomeAssistant, aioclien
     for _ in range(8):
         frozen.tick(timedelta(hours=1))
         await hass.config_entries.async_reload(entry.entry_id)
-        await hass.async_block_till_done()
+        await settle(hass)
     assert entry.state is ConfigEntryState.SETUP_RETRY
     assert ir.async_get(hass).async_get_issue(DOMAIN, f"feed_unavailable_{entry.entry_id}_cc") is not None
 
@@ -271,7 +271,7 @@ async def test_options_change_reuses_fresh_downloads(hass: HomeAssistant, d3_fee
     entry = await setup_entry(hass, make_entry())
     calls = d3_feeds.call_count
     hass.config_entries.async_update_entry(entry, options={**entry.options, "routes": ["I-80"]})
-    await hass.async_block_till_done()
+    await settle(hass)
     assert hass.states.get(CHAIN).state == "r2"
     assert d3_feeds.call_count == calls  # nothing downloaded again
 
@@ -300,6 +300,6 @@ async def test_startup_caps_the_wait_for_a_hung_server(hass: HomeAssistant, d3_f
         assert seen["lcs"] == REQUEST_TIMEOUTS["lcs"]  # loads in the background, never capped
         hass.set_state(CoreState.running)
         await hass.config_entries.async_reload(entry.entry_id)
-        await hass.async_block_till_done()
+        await settle(hass)
     coordinators = entry.runtime_data.coordinators
     assert all(c.request_timeout == REQUEST_TIMEOUTS[feed] for feed, c in coordinators.items())
