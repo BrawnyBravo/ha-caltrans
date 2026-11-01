@@ -19,7 +19,9 @@ jobs:
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
-      # Merges only after the required checks pass; majors are left for review.
+      # Needs the repo setting "Allow auto-merge" plus a ruleset on main that
+      # requires the Linting, HACS, Hassfest and Run tests checks. Without the
+      # ruleset a PR can merge before CI finishes. Majors are left for review.
       - name: Enable auto-merge (squash)
         if: steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'
         run: gh pr merge --auto --squash "$PR_URL"

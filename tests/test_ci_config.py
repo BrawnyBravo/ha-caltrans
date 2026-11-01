@@ -28,6 +28,10 @@ def test_ruff_version_lives_only_in_requirements():
     assert "ruff-pre-commit" not in config
     assert re.search(r"^\s*entry:\s*ruff check", config, re.M)
     assert re.search(r"^\s*entry:\s*ruff format", config, re.M)
+    assert not re.search(r"ruff\s*==", config)
+    ruff_hooks = [h for h in config.split("- id: ")[1:] if h.startswith("ruff")]
+    assert len(ruff_hooks) == 2
+    assert all(re.search(r"^\s*language:\s*system\s*$", h, re.M) for h in ruff_hooks)
     assert "ruff" in _pins(ROOT / "requirements.txt")
 
 
