@@ -182,6 +182,10 @@ names shown in the interface are translated from these).
 Go to **Settings, Devices & services**, open Caltrans Road Conditions, and choose **Delete** from the three-dot menu.
 Then remove it in HACS if you no longer want it.
 
+## Development
+
+Install `requirements.txt` before running `pre-commit`: its hooks use the ruff pinned there.
+
 ## Credits and licence
 
 Data: Caltrans Commercial Wholesale Web Portal ([documentation](https://cwwp2.dot.ca.gov/documentation/),

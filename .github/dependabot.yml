@@ -8,7 +8,15 @@ updates:
     directory: "/.github/workflows"
     schedule:
       interval: daily
+    groups:
+      workflow-tools:
+        patterns:
+          - "*"
   - package-ecosystem: pip
     directory: "/"
     schedule:
       interval: daily
+    groups:
+      python-requirements:
+        patterns:
+          - "*"

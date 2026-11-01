@@ -21,10 +21,18 @@ def _pins(path: Path) -> dict[str, str]:
     return pins
 
 
-def test_ruff_version_is_the_same_in_pre_commit_and_requirements():
-    rev = re.search(r"ruff-pre-commit\s+rev:\s*v?(\S+)", (ROOT / ".pre-commit-config.yaml").read_text(encoding="utf-8"))
-    assert rev is not None
-    assert _pins(ROOT / "requirements.txt")["ruff"] == rev.group(1)
+def test_ruff_version_lives_only_in_requirements():
+    # pre-commit runs the ruff installed from requirements.txt (a local hook),
+    # so Dependabot's single-file bump is complete and nothing can drift.
+    config = (ROOT / ".pre-commit-config.yaml").read_text(encoding="utf-8")
+    assert "ruff-pre-commit" not in config
+    assert re.search(r"^\s*entry:\s*ruff check", config, re.M)
+    assert re.search(r"^\s*entry:\s*ruff format", config, re.M)
+    assert not re.search(r"ruff\s*==", config)
+    ruff_hooks = [h for h in config.split("- id: ")[1:] if h.startswith("ruff")]
+    assert len(ruff_hooks) == 2
+    assert all(re.search(r"^\s*language:\s*system\s*$", h, re.M) for h in ruff_hooks)
+    assert "ruff" in _pins(ROOT / "requirements.txt")
 
 
 def test_test_requirements_pin_a_matching_ha_pair():

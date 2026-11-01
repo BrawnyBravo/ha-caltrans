@@ -8,11 +8,19 @@ repos:
         # Real feed sample kept byte for byte (non-UTF-8, no final newline).
         exclude: ^tests/fixtures/d11_cc_cp1252.json$
       - id: trailing-whitespace
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.17.2
+  # Ruff runs from the copy pinned in requirements.txt, so its version lives in
+  # exactly one place and Dependabot's bump of that file is the whole upgrade.
+  - repo: local
     hooks:
       - id: ruff
-        args:
-          - --fix
-          - --unsafe-fixes
+        name: ruff
+        entry: ruff check --force-exclude --fix --unsafe-fixes
+        language: system
+        types_or: [python, pyi]
+        require_serial: true
       - id: ruff-format
+        name: ruff-format
+        entry: ruff format --force-exclude
+        language: system
+        types_or: [python, pyi]
+        require_serial: true
